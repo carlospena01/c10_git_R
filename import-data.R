@@ -7,3 +7,5 @@ survey_data <- read_sheet("https://docs.google.com/spreadsheets/d/13kfPtyQP1xmL4
 
 survey_data |>
   saveRDS("survey_data.rds")
+
+print("ya sincronziamos con github")
